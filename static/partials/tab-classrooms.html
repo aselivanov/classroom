@@ -1,0 +1,13 @@
+<ion-view view-title="Classroom Builder">
+  <ion-content class="padding">
+    <div class="classroom">
+      <div class="row" ng-repeat="row in grid">
+        <div class="col place" ng-repeat="place in row" ng-class="{desk:place.desk}">
+          <a ng-click="place.desk = !place.desk" href>
+            <img class="bg" src="/static/images/desk-image.png" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

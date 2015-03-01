@@ -1,0 +1,13 @@
+.classroom {
+}
+.classroom .place {
+  border: 1px solid #eee;
+}
+.classroom .desk {
+  background: greenyellow;
+}
+
+.classroom .place .bg {
+  width: 100%;
+  height: auto;
+}
